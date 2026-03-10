@@ -1,0 +1,97 @@
+{
+  "data": {
+    "searchResult": {
+      "searchMerchants": [
+        {
+          "id": "PHIDGBAF191218_123456",
+          "chain_id": "warung-sate-pak-budi",
+          "name": "Warung Sate Pak Budi",
+          "merchantBrief": {
+            "displayInfo": {
+              "primaryText": "Warung Sate Pak Budi"
+            },
+            "rating": 4.5,
+            "vote_count": 1243,
+            "cuisines": [
+              {"name": "Indonesian"},
+              {"name": "Sate"},
+              {"name": "Grilled"}
+            ],
+            "deliveryTime": "25-35 min"
+          },
+          "estimatedDeliveryTime": "25-35 min",
+          "lowestBasket": 15000,
+          "latlng": {
+            "latitude": -6.186486,
+            "longitude": 106.834091
+          },
+          "addressInfo": {
+            "city": "Jakarta",
+            "address": "Jl. Menteng Raya No. 10, Jakarta Pusat"
+          },
+          "isOnline": true,
+          "adInfo": null
+        },
+        {
+          "id": "PHIDGBAF191218_654321",
+          "chain_id": "sushi-tei-jakarta",
+          "name": "Sushi Tei",
+          "merchantBrief": {
+            "displayInfo": {
+              "primaryText": "Sushi Tei"
+            },
+            "rating": 4.2,
+            "vote_count": 856,
+            "cuisines": [
+              {"name": "Japanese"},
+              {"name": "Sushi"}
+            ],
+            "deliveryTime": "35-45 min"
+          },
+          "estimatedDeliveryTime": "35-45 min",
+          "lowestBasket": 25000,
+          "latlng": {
+            "latitude": -6.223456,
+            "longitude": 106.812345
+          },
+          "addressInfo": {
+            "city": "Jakarta",
+            "address": "Grand Indonesia, Jakarta Pusat"
+          },
+          "isOnline": true,
+          "adInfo": {"type": "promoted"}
+        },
+        {
+          "id": "PHIDGBAF191218_111222",
+          "chain_id": "mcdonald-s-sarinah",
+          "name": "McDonald's Sarinah",
+          "merchantBrief": {
+            "displayInfo": {
+              "primaryText": "McDonald's Sarinah"
+            },
+            "rating": 4.0,
+            "vote_count": 3421,
+            "cuisines": [
+              {"name": "Fast Food"},
+              {"name": "American"},
+              {"name": "Burgers"}
+            ],
+            "deliveryTime": "20-30 min"
+          },
+          "estimatedDeliveryTime": "20-30 min",
+          "lowestBasket": 0,
+          "latlng": {
+            "latitude": -6.191234,
+            "longitude": 106.823456
+          },
+          "addressInfo": {
+            "city": "Jakarta",
+            "address": "Jl. MH. Thamrin No. 11, Jakarta Pusat"
+          },
+          "isOnline": true,
+          "adInfo": null
+        }
+      ]
+    }
+  }
+}

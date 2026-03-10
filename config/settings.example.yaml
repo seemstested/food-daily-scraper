@@ -1,0 +1,38 @@
+# Food Delivery Scraper — Example Configuration
+# Copy to config/settings.yaml and edit as needed.
+# All values can be overridden with environment variables (SCRAPER_* prefix).
+
+log_level: INFO           # DEBUG | INFO | WARNING | ERROR
+concurrency: 1            # Parallel scraper instances (increase with caution)
+
+browser:
+  headless: true          # false = visible browser (useful for debugging)
+  slow_mo: 0              # ms delay between Playwright actions (0 = max speed)
+  timeout_ms: 30000       # Page load timeout in milliseconds
+  viewport_width: 1920
+  viewport_height: 1080
+
+proxy:
+  enabled: false
+  max_failures: 3
+  rotation_strategy: least_failed   # least_failed | round_robin | random
+  proxies:
+    # Format: http://username:password@host:port
+    # - http://user:pass@proxy1.example.com:8080
+    # - http://user:pass@proxy2.example.com:8080
+
+retry:
+  max_attempts: 3
+  wait_min: 4.0           # seconds
+  wait_max: 10.0          # seconds
+  multiplier: 1.5         # exponential backoff multiplier
+
+storage:
+  backend: sqlite         # sqlite | postgres
+  sqlite_path: data/scraper.db
+  save_raw_html: true     # Keep raw HTML backups for debugging
+
+rate_limit:
+  min_delay_ms: 1500      # Minimum delay between requests
+  max_delay_ms: 4000      # Maximum delay between requests
+  page_delay_ms: 3000     # Extra delay between listing pages

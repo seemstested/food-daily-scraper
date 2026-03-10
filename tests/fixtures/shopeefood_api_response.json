@@ -1,0 +1,48 @@
+{
+  "result": {
+    "shops": [
+      {
+        "shopid": 12345678,
+        "name": "Ayam Geprek Bu Rum",
+        "slug": "ayam-geprek-bu-rum-jakarta",
+        "rating": 4.7,
+        "rating_count": 2341,
+        "min_delivery_time": 20,
+        "max_delivery_time": 35,
+        "delivery_fee": 12000,
+        "min_order_price": 20000,
+        "cuisine_tags": [
+          {"tag_name": "Indonesian"},
+          {"tag_name": "Chicken"},
+          {"tag_name": "Spicy"}
+        ],
+        "city": "Jakarta Selatan",
+        "address": "Jl. Fatmawati No. 8, Jakarta Selatan",
+        "latitude": -6.271234,
+        "longitude": 106.798765,
+        "is_open": true
+      },
+      {
+        "shopid": 87654321,
+        "name": "Bakso Malang Cak Man",
+        "slug": "bakso-malang-cak-man",
+        "rating": 4.4,
+        "rating_count": 1876,
+        "min_delivery_time": 25,
+        "max_delivery_time": 40,
+        "delivery_fee": 10000,
+        "min_order_price": 15000,
+        "cuisine_tags": [
+          {"tag_name": "Indonesian"},
+          {"tag_name": "Soup"},
+          {"tag_name": "Bakso"}
+        ],
+        "city": "Jakarta Selatan",
+        "address": "Jl. Kemang Raya No. 25, Jakarta Selatan",
+        "latitude": -6.261111,
+        "longitude": 106.814444,
+        "is_open": true
+      }
+    ]
+  }
+}
