@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="120" viewBox="0 0 800 120">
+  <defs>
+    <style>
+      .bg { fill: #0d1117; }
+      .title {
+        font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+        font-size: 32px;
+        font-weight: 700;
+        fill: #ffffff;
+        text-anchor: middle;
+      }
+      .sub {
+        font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        fill: #8b949e;
+        text-anchor: middle;
+      }
+      .accent { fill: #58a6ff; }
+
+      /* Catchy cycling subtitle lines */
+      .line { opacity: 0; }
+
+      .line1 {
+        animation: cycle 9s ease-in-out infinite;
+        animation-delay: 0s;
+      }
+      .line2 {
+        animation: cycle 9s ease-in-out infinite;
+        animation-delay: 3s;
+      }
+      .line3 {
+        animation: cycle 9s ease-in-out infinite;
+        animation-delay: 6s;
+      }
+
+      @keyframes cycle {
+        0%   { opacity: 0; }
+        8%   { opacity: 1; }
+        30%  { opacity: 1; }
+        38%  { opacity: 0; }
+        100% { opacity: 0; }
+      }
+
+      /* Title fade-in once */
+      .title-anim {
+        opacity: 0;
+        animation: fadein 1.2s ease-out forwards;
+        animation-delay: 0.2s;
+      }
+
+      /* Underline bar pulse */
+      .bar {
+        opacity: 0.85;
+        animation: pulse 3s ease-in-out infinite alternate;
+      }
+      @keyframes fadein {
+        to { opacity: 1; }
+      }
+      @keyframes pulse {
+        from { opacity: 0.5; transform: scaleX(0.92); }
+        to   { opacity: 1;   transform: scaleX(1); }
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="bg" width="800" height="120" rx="10"/>
+
+  <!-- Accent bar -->
+  <rect class="bar" x="220" y="68" width="360" height="3" rx="2" fill="#1f4e78" transform-origin="400 69"/>
+
+  <!-- Title -->
+  <text class="title title-anim" x="400" y="52">
+    <tspan class="accent">Food Delivery</tspan>
+    <tspan> Scraper Framework</tspan>
+  </text>
+
+  <!-- Cycling catchy lines -->
+  <text class="sub line line1" x="400" y="98">Multi-platform scraping for GrabFood, ShopeeFood and GoFood</text>
+  <text class="sub line line2" x="400" y="98">Async Playwright   ·   Pydantic models   ·   SQLite + CSV + XLSX</text>
+  <text class="sub line line3" x="400" y="98">Stealth scraping with proxy rotation and auto-retry</text>
+</svg>
