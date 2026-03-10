@@ -1,0 +1,107 @@
+2026-03-09 10:44:29 | INFO     | scraper.exporters.exporters | CSV exported: /tmp/pytest-of-theodores/pytest-0/test_creates_file0/exports/test_export.csv (6 rows)
+2026-03-09 10:44:29 | INFO     | scraper.exporters.exporters | CSV exported: /tmp/pytest-of-theodores/pytest-0/test_row_count_matches0/exports/row_count.csv (6 rows)
+2026-03-09 10:44:29 | INFO     | scraper.exporters.exporters | CSV exported: /tmp/pytest-of-theodores/pytest-0/test_header_contains_expected_0/exports/headers.csv (6 rows)
+2026-03-09 10:44:29 | INFO     | scraper.exporters.exporters | CSV exported: /tmp/pytest-of-theodores/pytest-0/test_platform_value_in_csv0/exports/platform_check.csv (1 rows)
+2026-03-09 10:44:29 | INFO     | scraper.exporters.exporters | CSV exported: /tmp/pytest-of-theodores/pytest-0/test_creates_output_dir_if_mis0/a/b/c/nested_dir.csv (1 rows)
+2026-03-09 10:44:29 | INFO     | scraper.exporters.exporters | CSV exported: /tmp/pytest-of-theodores/pytest-0/test_empty_list_produces_heade0/exports/empty.csv (0 rows)
+2026-03-09 10:44:29 | INFO     | scraper.exporters.exporters | JSON exported: /tmp/pytest-of-theodores/pytest-0/test_creates_json_file0/exports/test_json.json (6 records)
+2026-03-09 10:44:29 | INFO     | scraper.exporters.exporters | JSON exported: /tmp/pytest-of-theodores/pytest-0/test_valid_json_structure0/exports/valid_json.json (6 records)
+2026-03-09 10:44:29 | INFO     | scraper.exporters.exporters | JSON exported: /tmp/pytest-of-theodores/pytest-0/test_restaurant_fields_present0/exports/fields.json (1 records)
+2026-03-09 10:44:29 | INFO     | scraper.exporters.exporters | JSON exported: /tmp/pytest-of-theodores/pytest-0/test_unicode_preserved0/exports/unicode.json (1 records)
+2026-03-09 10:44:29 | INFO     | scraper.exporters.exporters | JSON exported: /tmp/pytest-of-theodores/pytest-0/test_empty_list_produces_empty0/exports/empty_json.json (0 records)
+2026-03-09 10:44:29 | INFO     | scraper.utils.proxy_manager | ProxyManager initialised
+2026-03-09 10:44:29 | INFO     | scraper.utils.proxy_manager | ProxyManager initialised
+2026-03-09 10:44:29 | INFO     | scraper.utils.proxy_manager | ProxyManager initialised
+2026-03-09 10:44:29 | INFO     | scraper.utils.proxy_manager | ProxyManager initialised
+2026-03-09 10:44:29 | INFO     | scraper.utils.proxy_manager | ProxyManager initialised
+2026-03-09 10:44:29 | INFO     | scraper.utils.proxy_manager | ProxyManager initialised
+2026-03-09 10:44:29 | INFO     | scraper.utils.proxy_manager | ProxyManager initialised
+2026-03-09 10:44:29 | INFO     | scraper.utils.proxy_manager | ProxyManager initialised
+2026-03-09 10:44:29 | WARNING  | scraper.utils.proxy_manager | Proxy burned (failures=2): http://user:pass@p1.example.com:8080
+2026-03-09 10:44:29 | INFO     | scraper.utils.proxy_manager | ProxyManager initialised
+2026-03-09 10:44:29 | INFO     | scraper.utils.proxy_manager | ProxyManager initialised
+2026-03-09 10:44:29 | WARNING  | scraper.utils.proxy_manager | Proxy burned (failures=2): http://user:pass@p1.example.com:8080
+2026-03-09 10:44:29 | INFO     | scraper.utils.proxy_manager | ProxyManager initialised
+2026-03-09 10:44:29 | WARNING  | scraper.utils.proxy_manager | Proxy burned (failures=1): http://user:pass@p1.example.com:8080
+2026-03-09 10:44:29 | INFO     | scraper.utils.proxy_manager | ProxyManager initialised
+2026-03-09 10:44:29 | WARNING  | scraper.utils.proxy_manager | Proxy burned (failures=2): http://user:pass@p1.example.com:8080
+2026-03-09 10:44:29 | INFO     | scraper.utils.proxy_manager | Proxy failure counts reset (http://user:pass@p1.example.com:8080)
+2026-03-09 10:44:29 | INFO     | scraper.utils.proxy_manager | ProxyManager initialised
+2026-03-09 10:44:29 | INFO     | scraper.utils.proxy_manager | Proxy failure counts reset (all)
+2026-03-09 10:44:29 | INFO     | scraper.utils.proxy_manager | ProxyManager initialised
+2026-03-09 10:44:29 | INFO     | scraper.utils.proxy_manager | ProxyManager initialised
+2026-03-09 10:44:29 | WARNING  | scraper.utils.proxy_manager | Proxy burned (failures=1): http://user:pass@p1.example.com:8080
+2026-03-09 10:44:51 | INFO     | scraper.exporters.exporters | CSV exported: /tmp/pytest-of-theodores/pytest-1/test_creates_file0/exports/test_export.csv (6 rows)
+2026-03-09 10:44:51 | INFO     | scraper.exporters.exporters | CSV exported: /tmp/pytest-of-theodores/pytest-1/test_row_count_matches0/exports/row_count.csv (6 rows)
+2026-03-09 10:44:51 | INFO     | scraper.exporters.exporters | CSV exported: /tmp/pytest-of-theodores/pytest-1/test_header_contains_expected_0/exports/headers.csv (6 rows)
+2026-03-09 10:44:51 | INFO     | scraper.exporters.exporters | CSV exported: /tmp/pytest-of-theodores/pytest-1/test_platform_value_in_csv0/exports/platform_check.csv (1 rows)
+2026-03-09 10:44:51 | INFO     | scraper.exporters.exporters | CSV exported: /tmp/pytest-of-theodores/pytest-1/test_creates_output_dir_if_mis0/a/b/c/nested_dir.csv (1 rows)
+2026-03-09 10:44:51 | INFO     | scraper.exporters.exporters | CSV exported: /tmp/pytest-of-theodores/pytest-1/test_empty_list_produces_heade0/exports/empty.csv (0 rows)
+2026-03-09 10:44:51 | INFO     | scraper.exporters.exporters | JSON exported: /tmp/pytest-of-theodores/pytest-1/test_creates_json_file0/exports/test_json.json (6 records)
+2026-03-09 10:44:51 | INFO     | scraper.exporters.exporters | JSON exported: /tmp/pytest-of-theodores/pytest-1/test_valid_json_structure0/exports/valid_json.json (6 records)
+2026-03-09 10:44:51 | INFO     | scraper.exporters.exporters | JSON exported: /tmp/pytest-of-theodores/pytest-1/test_restaurant_fields_present0/exports/fields.json (1 records)
+2026-03-09 10:44:51 | INFO     | scraper.exporters.exporters | JSON exported: /tmp/pytest-of-theodores/pytest-1/test_unicode_preserved0/exports/unicode.json (1 records)
+2026-03-09 10:44:51 | INFO     | scraper.exporters.exporters | JSON exported: /tmp/pytest-of-theodores/pytest-1/test_empty_list_produces_empty0/exports/empty_json.json (0 records)
+2026-03-09 10:44:51 | INFO     | scraper.utils.proxy_manager | ProxyManager initialised
+2026-03-09 10:44:51 | INFO     | scraper.utils.proxy_manager | ProxyManager initialised
+2026-03-09 10:44:51 | INFO     | scraper.utils.proxy_manager | ProxyManager initialised
+2026-03-09 10:44:51 | INFO     | scraper.utils.proxy_manager | ProxyManager initialised
+2026-03-09 10:44:51 | INFO     | scraper.utils.proxy_manager | ProxyManager initialised
+2026-03-09 10:44:51 | INFO     | scraper.utils.proxy_manager | ProxyManager initialised
+2026-03-09 10:44:51 | INFO     | scraper.utils.proxy_manager | ProxyManager initialised
+2026-03-09 10:44:51 | INFO     | scraper.utils.proxy_manager | ProxyManager initialised
+2026-03-09 10:44:51 | WARNING  | scraper.utils.proxy_manager | Proxy burned (failures=2): http://user:pass@p1.example.com:8080
+2026-03-09 10:44:51 | INFO     | scraper.utils.proxy_manager | ProxyManager initialised
+2026-03-09 10:44:51 | INFO     | scraper.utils.proxy_manager | ProxyManager initialised
+2026-03-09 10:44:51 | WARNING  | scraper.utils.proxy_manager | Proxy burned (failures=2): http://user:pass@p1.example.com:8080
+2026-03-09 10:44:51 | INFO     | scraper.utils.proxy_manager | ProxyManager initialised
+2026-03-09 10:44:51 | WARNING  | scraper.utils.proxy_manager | Proxy burned (failures=1): http://user:pass@p1.example.com:8080
+2026-03-09 10:44:51 | INFO     | scraper.utils.proxy_manager | ProxyManager initialised
+2026-03-09 10:44:51 | WARNING  | scraper.utils.proxy_manager | Proxy burned (failures=2): http://user:pass@p1.example.com:8080
+2026-03-09 10:44:51 | INFO     | scraper.utils.proxy_manager | Proxy failure counts reset (http://user:pass@p1.example.com:8080)
+2026-03-09 10:44:51 | INFO     | scraper.utils.proxy_manager | ProxyManager initialised
+2026-03-09 10:44:51 | INFO     | scraper.utils.proxy_manager | Proxy failure counts reset (all)
+2026-03-09 10:44:51 | INFO     | scraper.utils.proxy_manager | ProxyManager initialised
+2026-03-09 10:44:51 | INFO     | scraper.utils.proxy_manager | ProxyManager initialised
+2026-03-09 10:44:51 | WARNING  | scraper.utils.proxy_manager | Proxy burned (failures=1): http://user:pass@p1.example.com:8080
+2026-03-09 10:51:31 | INFO     | scraper.core.base_scraper | Starting scrape
+2026-03-09 10:51:31 | INFO     | scraper.core.base_scraper | Scraping page 1/5: https://food.grab.com/id/en/restaurants?search=&location=jakarta&offset=0
+2026-03-09 10:51:37 | WARNING  | scraper.core.base_scraper | Retry 1/3 for https://food.grab.com/id/en/restaurants?search=&location=jakarta&offset=0 after: Zero restaurants extracted from https://food.grab.com/id/en/restaurants?search=&location=jakarta&offset=0
+2026-03-09 10:51:47 | WARNING  | scraper.core.base_scraper | Retry 2/3 for https://food.grab.com/id/en/restaurants?search=&location=jakarta&offset=0 after: Zero restaurants extracted from https://food.grab.com/id/en/restaurants?search=&location=jakarta&offset=0
+2026-03-09 11:03:04 | INFO     | scraper.core.base_scraper | Starting scrape
+2026-03-09 11:03:04 | INFO     | scraper.core.base_scraper | Scraping page 1/2: https://food.grab.com/id/en/restaurants?search=&location=jakarta&offset=0
+2026-03-09 11:03:12 | WARNING  | scraper.core.base_scraper | Retry 1/3 for https://food.grab.com/id/en/restaurants?search=&location=jakarta&offset=0 after: Zero restaurants extracted from https://food.grab.com/id/en/restaurants?search=&location=jakarta&offset=0
+2026-03-09 11:03:27 | WARNING  | scraper.core.base_scraper | Retry 2/3 for https://food.grab.com/id/en/restaurants?search=&location=jakarta&offset=0 after: Zero restaurants extracted from https://food.grab.com/id/en/restaurants?search=&location=jakarta&offset=0
+2026-03-09 11:33:33 | INFO     | scraper.utils.proxy_manager | ProxyManager initialised
+2026-03-09 11:33:34 | INFO     | scraper.core.base_scraper | Starting scrape
+2026-03-09 11:33:34 | INFO     | scraper.core.base_scraper | Scraping page 1/1: https://food.grab.com/id/en/restaurants?search=&location=jakarta&offset=0
+2026-03-09 11:40:22 | INFO     | scraper.utils.proxy_manager | ProxyManager initialised
+2026-03-09 11:40:23 | INFO     | scraper.core.base_scraper | Starting scrape
+2026-03-09 11:40:23 | INFO     | scraper.core.base_scraper | Scraping page 1/1: https://food.grab.com/id/en/restaurants?search=&location=jakarta&offset=0
+2026-03-09 11:42:22 | ERROR    | asyncio | Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+2026-03-09 11:42:25 | INFO     | scraper.utils.proxy_manager | ProxyManager initialised
+2026-03-09 11:42:25 | INFO     | scraper.core.base_scraper | Starting scrape
+2026-03-09 11:42:25 | INFO     | scraper.core.base_scraper | Scraping page 1/1: https://food.grab.com/id/en/restaurants?search=&location=jakarta&offset=0
+2026-03-09 11:42:38 | WARNING  | scraper.core.base_scraper | Retry 1/3 for https://food.grab.com/id/en/restaurants?search=&location=jakarta&offset=0 after: Zero restaurants extracted from https://food.grab.com/id/en/restaurants?search=&location=jakarta&offset=0
+2026-03-09 11:44:46 | INFO     | scraper.utils.proxy_manager | ProxyManager initialised
+2026-03-09 11:44:47 | INFO     | scraper.core.base_scraper | Starting scrape
+2026-03-09 11:44:47 | INFO     | scraper.core.base_scraper | Scraping page 1/1: https://food.grab.com/id/en/restaurants?search=&location=jakarta&offset=0
+2026-03-09 11:50:14 | INFO     | scraper.utils.proxy_manager | ProxyManager initialised
+2026-03-09 11:50:14 | INFO     | scraper.core.base_scraper | Starting scrape
+2026-03-09 11:50:14 | INFO     | scraper.core.base_scraper | Scraping page 1/1: https://food.grab.com/id/en/restaurants?search=&location=jakarta&offset=0
+2026-03-09 11:51:39 | WARNING  | scraper.core.base_scraper | Retry 1/3 for https://food.grab.com/id/en/restaurants?search=&location=jakarta&offset=0 after: Zero restaurants extracted from https://food.grab.com/id/en/restaurants?search=&location=jakarta&offset=0
+2026-03-09 11:52:43 | WARNING  | scraper.core.base_scraper | Retry 2/3 for https://food.grab.com/id/en/restaurants?search=&location=jakarta&offset=0 after: Zero restaurants extracted from https://food.grab.com/id/en/restaurants?search=&location=jakarta&offset=0
+2026-03-09 11:52:51 | ERROR    | asyncio | Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed\nCall log:\n  - navigating to "https://food.grab.com/id/en/restaurants?search=&location=jakarta&offset=0", waiting until "networkidle"\n')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Call log:
+  - navigating to "https://food.grab.com/id/en/restaurants?search=&location=jakarta&offset=0", waiting until "networkidle"
+
+2026-03-09 11:53:19 | INFO     | scraper.utils.proxy_manager | ProxyManager initialised
+2026-03-09 11:53:19 | INFO     | scraper.core.base_scraper | Starting scrape
+2026-03-09 11:53:19 | INFO     | scraper.core.base_scraper | Scraping page 1/1: https://food.grab.com/id/en/restaurants?search=&location=jakarta&offset=0
+2026-03-09 11:54:18 | INFO     | scraper.platforms.grabfood | Extracted 40 restaurants from https://food.grab.com/id/en/restaurants?search=&location=jakarta&offset=0
+2026-03-09 11:54:18 | INFO     | scraper.core.base_scraper | Scrape finished
+2026-03-09 11:54:18 | INFO     | scraper.exporters.exporters | CSV exported: /home/theodores/Development/food-delivery-scraper/data/exports/grabfood_jakarta_20260309_115418.csv (40 rows)
